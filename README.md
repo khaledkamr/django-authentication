@@ -23,3 +23,29 @@ This project implements a user authentication system using Django. It includes f
    ```bash
    git clone https://github.com/khaledkamr/django-authentication.git
    cd django-authentication
+   ```
+
+2. **Create a virtual environment and activate it:**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. **Install the required packages:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Apply the migrations:**
+   ```bash
+   python manage.py migrate
+   ```
+
+5. **Run the development server:**
+   ```bash
+   python manage.py runserver
+   ```
+
+6. **Access the application:**
+   
+   Open your web browser and navigate to `http://127.0.0.1:8000/` .
